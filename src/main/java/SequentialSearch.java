@@ -15,7 +15,7 @@ public class SequentialSearch {
     public static final String SEARCH_QUERY_2= "Some people without brains do an awful lot of talking, don't you think?";
     public static final String SEARCH_QUERY_3 = "Your strength is just an accident arising from the weakness of others.";
 
-    public static  void main(String[] args) {
+    /*public static  void main(String[] args) {
         File documentsDirectory = new File(BOOKS_DIRECTORY);
 
         List<String> booksFileNames = Arrays.asList(documentsDirectory.list())
@@ -30,7 +30,7 @@ public class SequentialSearch {
             e.printStackTrace();
         }
 
-    }
+    } */
 
     private static void findMostRelevantDocuments(List<String> booksFileNames, List<String> terms)
             throws FileNotFoundException {
